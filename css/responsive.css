@@ -1,0 +1,293 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+
+
+@media (max-width: 1199px) {
+    .banner .banner-text h1{
+        font-size: 50px;
+    }
+    .h-left ul li {
+        margin-right: 18px;
+    }
+    .h-right ul li {
+        margin-left: 20px;
+    }
+
+    .landscapping h2 {
+        margin-bottom: 20px;
+    }
+    .landscapping p {
+        margin-bottom: 20px;
+    }
+
+    .services .services-item {
+        padding: 30px 10px;
+    }
+    .services .services-item .services-feature-text h2 {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 991px){
+    .h-left ul {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .h-right ul {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        margin-top: 10px;
+    }
+
+    .header-banner{
+        position: relative;
+        overflow: hidden;
+    }
+    .toggler-btn{
+        display: block !important;
+    }
+    .search {
+        position: relative;
+        margin-right: 30px;
+    }
+    .main-nav{
+        position: absolute;
+        background: white;
+        height: 100vh;
+        width: 60%;
+        left: -60%;
+        top: 0;
+        -webkit-transition: .3s all linear;
+        -o-transition: .3s all linear;
+        transition: .3s all linear;
+    }
+    .open-nav{
+        left: 0;
+    }
+    nav .navigation .main-nav ul{
+        display: block;
+        text-align: center;
+    }
+    nav .navigation .main-nav ul li{
+        margin: 0;
+        margin: 15px 0px;
+    }
+
+    .banner{
+        padding: 100px 0px;
+    }
+    .banner .banner-text h1 {
+        font-size: 55px;
+    }
+
+    .section-title {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
+    .landscapping .video {
+        margin-bottom: 20px;
+    }
+
+    .gallery .buttons button {
+        font-size: 15px;
+    }
+
+    .news .news-item .news-article .news-text h3 {
+        font-size: 18px !important;
+    }
+
+    .footer-links{
+        margin-left: 50px;
+    }
+    .opening-hours{
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 767px){
+    
+    .banner .banner-text h1 {
+        font-size: 42px;
+    }
+
+    .section-title {
+        width: 100%;
+    }
+
+    .welcome .welcome-feature {
+        padding: 35px 5px;
+    }
+    .welcome .welcome-feature h2 {
+        font-size: 16px;
+    }
+    .welcome .welcome-feature p {
+        font-size: 14px;
+    }
+
+    .gallery .buttons button {
+        margin: 0px 10px;
+    }
+    .gallery .buttons button {
+        font-size: 14px;
+    }
+    footer .copyright ul {
+        display: none;
+    }
+    footer .copyright {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .services .services-item {
+        display: block;
+        text-align: center;
+    }
+    .services .services-item .services-icon span {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 574px){
+
+
+    .banner .banner-text h1 {
+        font-size: 44px;
+    }
+    .welcome-feature,.services-item,.team-item,.news-item{
+        width: 80%;
+        margin: auto;
+    }
+    .welcome .welcome-feature p {
+        font-size: 16px;
+    }
+    .welcome .welcome-feature h2 {
+        font-size: 20px;
+    }
+
+    .services .services-item .services-feature-text h2 {
+        font-size: 18px;
+    }
+    .services .services-item .services-feature-text p {
+        font-size: 15px;
+    }
+
+    .footer-post,.footer-links,.opening-hours,.footer-left {
+        margin-left: 50px;
+    }
+    .opening-hours{
+        width: 70%;
+    }
+}
+
+@media (max-width: 550px){
+    .banner .banner-text h1 {
+        font-size: 38px;
+    }
+}
+
+@media (max-width: 530px){
+    .gallery .buttons {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px){
+
+    .h-left ul {
+        display: none;
+    }
+    .h-right ul {
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        margin-top: 0px;
+    }
+
+    .banner {
+        padding: 70px 0px;
+    }
+    .banner .banner-text h1 {
+        font-size: 33px;
+    }
+
+    .section-title p {
+        font-size: 14px;
+    }
+    .services-item,.team-item,.news-item{
+        width: 90%;
+        margin: auto;
+    }
+    .footer-post,.footer-links,.opening-hours,.footer-left {
+        margin-left: 30px;
+    }
+    .landscapping ul:first-child {
+        margin-right: 20px;
+    }
+    .landscapping ul li span {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 420px){
+    .banner .banner-text h1 {
+        font-size: 31px;
+    }
+    .landscapping .landscapping-ul {
+        display: block;
+    }
+    .landscapping ul:first-child {
+        margin-right: 0px; 
+        margin-bottom: 10px;
+    }
+
+    .welcome .welcome-feature h2 {
+        font-size: 18px;
+    }
+    
+}
+
+@media (max-width: 375px){
+    .search > button {
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+        text-align: center;
+        border-radius: 50%;
+        font-size: 14px;
+    }
+    .search .search-bar form {
+        padding: 10px;
+    }
+    .search .search-bar form input {
+        width: 150px;
+        height: 30px;
+    }
+    .search .search-bar form button {
+        height: 30px;
+    }
+
+
+    .welcome .welcome-feature h2 {
+        font-size: 15px;
+    }
+    .welcome .welcome-feature p {
+        font-size: 14px;
+    }
+
+    .services .services-item .services-feature-text h2 {
+        font-size: 17px;
+    }
+    .owner .owner-content p {
+        max-width: 100%;
+    }
+}
